@@ -68,6 +68,10 @@ a {
     max-width: 275px;
     width: 100%;
 }
+.max-w-296{
+    max-width: 296px;
+    width: 100%;
+}
 .max-w-308{
     max-width: 308px;
     width: 100%;
@@ -307,6 +311,23 @@ a {
 }
 .swiper-pagination-bullet-active{
     background-color: #75BF7A;
+}
+.servicesbox .swiper-button-next{
+  right: -41px;
+}
+.servicesbox .swiper-button-prev{
+    left: -41px;
+  }
+.servicesbox .swiper-button-prev,.servicesbox .swiper-button-next{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.servicesbox .swiper-button-prev::after,.servicesbox .swiper-button-next::after{
+   font-size: 15px;
+   color: #6cb771;
+   font-weight: bold;
 }
 /* global styles */
 .outline-none {
