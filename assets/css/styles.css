@@ -115,17 +115,26 @@ a {
 .w-40{
     width: 40px;
 }
+.w-44{
+    width:44px;
+}
 .w-70 {
     width: 70px;
 }
 .w-117 {
     width: 117px;
 }
+.w-146 {
+    width: 146px;
+}
 .w-174 {
     width: 174px;
 }
 .w-224 {
     width: 224px;
+}
+.w-276{
+    width: 276px;
 }
 .w-287{
     width: 287px;
@@ -148,6 +157,9 @@ a {
 }
 .h-40{
     height: 40px;
+}
+.h-44{
+    height:44px;
 }
 .h-48{
     height: 48px;
@@ -343,6 +355,15 @@ a {
    font-size: 15px;
    color: #6cb771;
    font-weight: bold;
+}
+/* input number */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
 }
 /* global styles */
 .outline-none {
