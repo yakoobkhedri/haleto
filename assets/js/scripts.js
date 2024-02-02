@@ -16,6 +16,8 @@
       item.parentElement.parentElement.previousElementSibling.classList.remove('d-none');
     })
   })
+  // aos
+AOS.init();
 // swiper
 var app = new Swiper(".app", {
   loop: true,
@@ -50,8 +52,7 @@ var blog = new Swiper(".blog", {
     prevEl: ".swiper-button-prev",
   },
 });
-// aos
-AOS.init();
+
 
 let nextBtn=document.getElementById('next');
 let prevBtn=document.getElementById('prev');
