@@ -9,3 +9,6 @@ hamIcon.addEventListener('click',function () {
 closeIcon.addEventListener('click',function () {
     document.querySelector('aside').classList.remove('active');
   })
+
+
+

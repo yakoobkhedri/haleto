@@ -1,3 +1,21 @@
+
+  // question
+
+  let next=Array.from(document.getElementsByClassName('next'));
+  let prev=Array.from(document.getElementsByClassName('prev'));
+
+  next.forEach((item)=>{
+    item.addEventListener('click',function () {
+      item.parentElement.parentElement.classList.add('d-none');
+      item.parentElement.parentElement.nextElementSibling.classList.remove('d-none');
+    })
+  })
+  prev.forEach((item)=>{
+    item.addEventListener('click',function () {
+      item.parentElement.parentElement.classList.add('d-none');
+      item.parentElement.parentElement.previousElementSibling.classList.remove('d-none');
+    })
+  })
 // swiper
 var app = new Swiper(".app", {
   loop: true,

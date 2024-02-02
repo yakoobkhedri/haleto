@@ -591,6 +591,9 @@ header a:hover,header ul a.active,footer ul a:hover{
     aside.active{
         right: 0;
     }
+    .h-md-auto{
+        height: auto;
+    }
 }
 @media only screen and (max-width:576px) {
  .bottom-sm-86{
