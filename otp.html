@@ -7,22 +7,12 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/aos.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
-  <title>ثبت نام</title>
+  <title>تایید شماره موبایل</title>
 </head>
 
-<body class="bg-white h-100vh h-lg-auto overflow-hidden overflow-lg-auto position-relative">
-
-  <!-- shape -->
-  <svg class="position-absolute bottom-0 start-0 -z-0" width="159" height="172" viewBox="0 0 159 172" fill="none"
-    xmlns="http://www.w3.org/2000/svg">
-    <circle cx="-4.01515" cy="189.515" r="154.985" fill="#232524" />
-    <circle cx="1.20464" cy="179.477" r="156.795" stroke="#232524" stroke-width="2" />
-    <circle cx="1.20464" cy="167.432" r="157.045" stroke="#232524" stroke-width="1.5" />
-    <circle cx="-1.20454" cy="157.795" r="157.295" stroke="#232524" />
-  </svg>
+<body class="bg-white h-100vh h-lg-auto overflow-hidden overflow-lg-auto">
 
   <!-- main -->
-
   <main>
     <section>
       <div class="row mx-0">
@@ -52,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-5 position-relative bg-login h-100vh h-lg-auto overflow-auto">
+        <div class="col-lg-5 position-relative bg-login h-100vh">
           <!-- go back -->
           <a href="index.html" class="position-absolute start-0 m-4">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +57,7 @@
             </svg>
           </a>
           <!-- shape -->
-          <svg class="position-absolute bottom-0 start-0 -z-0 d-lg-none" width="159" height="172" viewBox="0 0 159 172"
+          <svg class="position-absolute bottom-0 start-0 -z-0" width="159" height="172" viewBox="0 0 159 172"
             fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="-4.01515" cy="189.515" r="154.985" fill="#232524" />
             <circle cx="1.20464" cy="179.477" r="156.795" stroke="#232524" stroke-width="2" />
@@ -75,45 +65,26 @@
             <circle cx="-1.20454" cy="157.795" r="157.295" stroke="#232524" />
           </svg>
           <!--  -->
-          <form class="max-w-340 mx-auto my-5 pb-5 position-relative">
+          <form class="max-w-340 mx-auto my-5 py-5 position-relative">
             <div class="mb-5 pb-5 d-block d-lg-none text-white text-center">
               <h1 class="font-bold fs-20">
                 سلامت روان حق همه ماست
               </h1>
               <h3 class="mt-4 fs-14 font-bold">اتاق مشاوره آنلاین روانشناسی</h3>
             </div>
-            <a href="index.html" class="d-block"><img alt="logo" src="assets/img/Frame 1597883545.png"
-                class="d-block mx-auto"></a>
-            <h4 class="font-bold fs-18 text-center mt-3 text-lg-white">لطفا جهت ثبت نام اطلاعات خود را تکمیل کنید</h4>
-            <div class="mt-5 text-lg-white">
-              <input
-                class="h-48 placeholder-lg-white outline-none bg-transparent w-100 rounded-4 border fw-bold fs-12 mb-3 px-3"
-                placeholder="نام">
-              <input
-                class="h-48 placeholder-lg-white outline-none bg-transparent w-100 rounded-4 border fw-bold fs-12 mb-3 px-3"
-                placeholder="نام خانوادگی">
-              <div class="d-flex h-48 align-items-stretch gap-1 rounded-4 border mb-3">
-                <input class="placeholder-lg-white outline-none bg-transparent w-100 border-0 fw-bold fs-12 px-3"
-                  placeholder="شماره موبایل">
-                <select class="bg-transparent border-end border-0 px-3 text-lg-white placeholder-lg-white">
-                  <option>98+</option>
-                  <option>90+</option>
-                  <option>94+</option>
-                </select>
-              </div>
-              <select
-                class="h-48 text-lg-white placeholder-lg-white outline-none bg-transparent w-100 rounded-4 border fw-bold fs-12 mb-3 px-3">
-                <option>کشور</option>
-                <option>ایران</option>
-                <option>عراق</option>
-              </select>
-              <label class="d-flex align-items-center gap-2 cursor-pointer">
-                <input type="checkbox" class="form-check-input cursor-pointer">
-                <p class="mb-0 mt-1 text-main fs-14 fw-bold">قوانین و مقررات</p>
-              </label>
-              <input type="submit" value="ثبت نام"
-                class="h-48 fw-bold bg-main border-0 w-100 d-flex align-items-center justify-content-center text-white rounded-4 mt-4">
+            <img alt="logo" src="assets/img/Screen.png"
+                class="d-block mx-auto">
+            <h4 class="font-bold fs-20 text-center mt-3 text-lg-white">verification</h4>
+            <h5 class="fs-18 mt-4 text-center font-bold text-lg-white">لطفا کدی که به شماره موبایل شما ارسال شده است را وارد نمایید</h5>
+            <div class="mt-5 d-flex align-items-center justify-content-center gap-3">
+             <input type="number" class="rounded-4 text-lg-white placeholder-lg-white font-bold border border-secondary bg-transparent outline-none text-center h-48 w-40 border-lg-white" maxlength="1">
+             <input type="number" class="rounded-4 text-lg-white placeholder-lg-white font-bold border border-secondary bg-transparent outline-none text-center h-48 w-40 border-lg-white" maxlength="1">
+             <input type="number" class="rounded-4 text-lg-white placeholder-lg-white font-bold border border-secondary bg-transparent outline-none text-center h-48 w-40 border-lg-white" maxlength="1">
+             <input type="number" class="rounded-4 text-lg-white placeholder-lg-white font-bold border border-secondary bg-transparent outline-none text-center h-48 w-40 border-lg-white" maxlength="1">
+             <input type="number" class="rounded-4 text-lg-white placeholder-lg-white font-bold border border-secondary bg-transparent outline-none text-center h-48 w-40 border-lg-white" maxlength="1">
             </div>
+            <input type="submit" value="تایید"
+            class="bg-main rounded-4 text-white fw-bold w-100 h-48 mt-4 border-0 mb-2">
           </form>
         </div>
       </div>
